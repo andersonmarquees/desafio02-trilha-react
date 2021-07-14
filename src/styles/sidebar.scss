@@ -17,8 +17,13 @@ nav.sidebar {
     font-weight: 600;
     color: var(--yellow);
 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
     p {
-      display: inline;
+      //display: inline;
       color: var(--white);
     }
   }
